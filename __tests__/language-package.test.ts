@@ -82,7 +82,7 @@ test("Parse example's keywords", () => {
     Given:
     Assume:
     Conclusion:
-    Proof:s
+    Proof:
     QED`;
     const tree = parser.parse(source);
     const trace = treeToTrace(tree);
